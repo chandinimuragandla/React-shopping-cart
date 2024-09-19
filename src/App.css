@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  border:3px solid black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerSection{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgb(118, 118, 230);
   color: white;
+  padding: 10px;
+}
+.center ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 20px;
+  font-size: 23px;
+}
+.title{
+  font-size: 1 rem;
+}
+.left{
+  flex:2;
+ 
+}
+.center{
+  flex:4;
+  
+}
+.search{
+  flex:2; 
+}
+.search input{
+  font-size: 25px;
+  
+}
+.right{
+  flex:4;
+ 
+  display: flex;
+  font-size: 23px;
+}
+.cart{
+  margin-left: 200px;
+  font-size: 23px;
+}
+.signin{
+  margin-left: 30px;
+}
+.banner-box img{
+width: 100%;
+margin-top: 10px;
+height: 250px;
 }
 
-.App-link {
-  color: #61dafb;
+.menimages{
+  display: flex;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menimages img{
+  width: 220px;
+  height: 220px;
+  margin: 10px;
 }
